@@ -1,4 +1,5 @@
-# ContainerizedCoding-ProblemSolvingWelcome to ContainerizedCoding-ProblemSolving, a repository showcasing my structured approach to mastering coding and problem-solving, especially for preparation for FAANG (Facebook, Amazon, Apple, Google, Netflix) and other top tech company interviews. This repo reflects my journey through coding challenges, system design preparation, and behavioral interview training.
+ContainerizedCoding-ProblemSolving
+Welcome to ContainerizedCoding-ProblemSolving, a repository showcasing my structured approach to mastering coding and problem-solving, especially for preparation for FAANG (Facebook, Amazon, Apple, Google, Netflix) and other top tech company interviews. This repo reflects my journey through coding challenges, system design preparation, and behavioral interview training.
 
 Repository Overview
 This repository is a comprehensive collection of my solutions to coding problems from platforms like LeetCode, HackerRank, and GeeksforGeeks. It also includes study notes and insights gathered from my preparation for technical interviews at companies such as Amazon, Meta, Google, and others.
@@ -45,6 +46,4 @@ Prepare thoroughly for both technical and behavioral interviews
 Showcase my progress and skills to potential employers
 Contributing
 Feel free to contribute by opening issues, submitting pull requests, or offering suggestions on how to improve the repo!
-
-
 
