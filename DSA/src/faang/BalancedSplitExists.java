@@ -23,6 +23,7 @@ public class BalancedSplitExists {
 		        if (totalSum % 2 != 0) {
 		            return false;
 		        }
+		        //sumA
 		    int sumA=0;
 		    int length=arr.length;
 		    for(int i=0;i<length-1;i++){
