@@ -12,17 +12,16 @@ public class LongestSubstringWithUniqueChars {
 
 	static String LongestSubstringWithUnique(String string) {
 		if (string == null || string.isEmpty()) {
-            return "";
-        }
+			return "";
+		}
 		Map<Character, Integer> visited = new HashMap<>();
 		String target = "";
 		int i = 0;
 		int length = string.length();
 		for (int j = 0; j < length; j++) {
 			char currentChar = string.charAt(j);
-			if (visited.containsKey(currentChar)&& visited.get(currentChar)>=i) {
-				i = Math.max(visited.get(currentChar) + 1,i);
-				
+			if (visited.containsKey(currentChar) && visited.get(currentChar) >= i) {
+				i = Math.max(visited.get(currentChar) + 1, i);
 
 			}
 			if (target.length() < j - i + 1) {
