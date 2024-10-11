@@ -18,6 +18,11 @@ public class TestData {
 	        employeeMap.put(e1.getId(), e1);
 	        employeeMap.put(e2.getId(), e2);
 	        employeeMap.put(e3.getId(), e3);
+	        
+	        employeeMap.values().stream()
+	        .sorted(Comparator.comparing(Employee::getName))  // Sort by name
+	        .collect(Collectors.toList())                     // Collect sorted results into a list
+	        .forEach(emp -> System.out.println(emp));          // Print each employee
 
 	        // Get employee details in sorted order by employee name
 	        List<Employee> sortedEmployees = employeeMap.values().stream()
