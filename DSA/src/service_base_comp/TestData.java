@@ -1,5 +1,7 @@
 package service_base_comp;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
@@ -32,10 +34,21 @@ public class TestData {
 																														// by
 																														// name
 				.collect(Collectors.toList()); // Collect sorted results to a list
+		// or
 
 		// Print the sorted employee details
 		for (Employee emp : sortedEmployees) {
 			System.out.println(emp);
+		}
+		List<Employee> employeeName = new ArrayList<>(employeeMap.values());
+
+		// Sort by employee name
+		employeeName.sort((em1, em2) -> em1.getName().compareTo(em2.getName()));
+
+		// Print sorted employees
+		System.out.println("\nSorted Employees with direct list:");
+		for (Employee employee : employeeName) {
+			System.out.println(employee);
 		}
 	}
 }
