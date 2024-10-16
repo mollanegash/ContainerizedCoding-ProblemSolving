@@ -3,6 +3,7 @@ package service_base_comp;
 import java.util.Arrays;
 
 
+
 public class ReverseIntArray {
 	public static void main(String[] args) {
 		int arrNums[]=reverseIntArray(new int[]{1,23,4,5,6,7,});
@@ -10,6 +11,8 @@ public class ReverseIntArray {
 		
 		
 	}
+	
+	
 	
 	static int[] reverseIntArray(int array[]) {
 		int left=0;
