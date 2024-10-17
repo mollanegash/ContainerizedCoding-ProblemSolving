@@ -4,14 +4,14 @@ import java.util.Arrays;
 
 public class Search {
 	private static int array[] = { 1, 2, 3, 4, 56, 34 };
-	static int data = 34;
+	private static int data = 34;
 
 	public static void main(String[] args) {
 		System.out.println(serialSearch(array, data));
 		Arrays.sort(array);
 		System.out.println(iterBinSrch(array, data));
 		int result = recBinSearch(array, data, 0, array.length - 1);
-		
+
 		if (result != -1) {
 			System.out.println("Element" + " " + data + " " + "found at index" + " " + result);
 
