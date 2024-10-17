@@ -15,7 +15,7 @@ public class FindDuplicates {
 
 		for (int num : nums) {
 			if (!hSet.add(num)) {
-				System.out.print(num + " ");
+				System.out.print("duplcate elemenets:"+ num + " ");
 
 			}
 
