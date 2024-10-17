@@ -8,6 +8,7 @@ public class Search {
 
 	public static void main(String[] args) {
 		System.out.println(serialSearch(array, data));
+		//sort this first
 		Arrays.sort(array);
 		System.out.println(iterBinSrch(array, data));
 		int result = recBinSearch(array, data, 0, array.length - 1);
