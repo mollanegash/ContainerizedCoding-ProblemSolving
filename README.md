@@ -23,7 +23,6 @@ Detailed notes on Java, Spring Boot, ReactJS, Microservices, AWS services (S3, E
 
 How to Use This Repo
 Clone the Repository
-
 bash
 Copy code
 git clone https://github.com/mollanegash/ContainerizedCoding-ProblemSolving.git
@@ -31,13 +30,13 @@ Explore Solutions & Notes
 Navigate through the various folders to explore coding challenges, solutions, and system design notes. Each section provides detailed explanations of approaches, time complexity, and space complexity.
 
 Contents & Highlights
-Daily Coding & Problem Solving:
+Daily Coding & Problem Solving
 Coding challenges from LeetCode, HackerRank, and other platforms, complete with detailed breakdowns of the solutions, including time and space complexity analysis.
 
-System Design Concepts:
+System Design Concepts
 Notes on system design, distributed systems, microservices, scalability, caching, load balancing, and other architectural concerns relevant for FAANG interviews.
 
-Behavioral Interview Prep:
+Behavioral Interview Prep
 STAR method notes and example answers to help with behavioral interviews, ensuring you can communicate your problem-solving process effectively.
 
 Goals
@@ -48,3 +47,4 @@ Showcase my progress and skills to potential employers
 Contributing
 Feel free to contribute by opening issues, submitting pull requests, or offering suggestions on how to improve the repo!
 
+Note: The term "containerized" in this context is not related to Docker. It is used to enhance performance and showcase my capabilities in problem-solving, particularly in data structures and algorithms (DSA) and coding challenges. This approach serves as a fast and efficient way to demonstrate my skills.
