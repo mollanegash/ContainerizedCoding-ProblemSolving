@@ -26,7 +26,7 @@ public class UncommonFromSentences {
 
 	public static String[] uncommonFromSentences(String s1, String s2) {
 		Map<String, Integer> wordCount = new HashMap<>();
-		// String combinedWords= s1 + "" + s2;
+		
 		String combinedWords_s1s2 = s1 + " " + s2;
 		String words[] = combinedWords_s1s2.split(" ");
 		for (String word : words) {
