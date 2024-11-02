@@ -2,24 +2,19 @@ package recursion;
 
 public class Fibonacci {
 
+    // Class-level (static) variable for the target Fibonacci index
+    private static int n = 50; // Define the target Fibonacci index
     // Class-level (static) array to store computed Fibonacci values for memoization
-    private static long[] fibonacciCache;
+    private static long[] fibonacciCache = new long[n + 1];
 
     public static void main(String[] args) {
-        int n = 50; // Define the target Fibonacci index
-
-        // Initialize the cache array with size (n + 1) for memoization
-        fibonacciCache = new long[n + 1];
-
-        // Compute Fibonacci using basic recursion (no memoization) - slower
-       // System.out.println("Fibonacci without cache: " + fibonacci(n));
-
         // Compute Fibonacci using memoization (faster with caching)
         System.out.println("Fibonacci with cache: " + fibonacciWithCache(n));
     }
-
     /**
      * Recursive method to calculate the nth Fibonacci number without caching.
+     * This method is slower because it recalculates Fibonacci values repeatedly.
+     * 
      * @param n the Fibonacci sequence index
      * @return the nth Fibonacci number
      */
@@ -29,13 +24,15 @@ public class Fibonacci {
             return n;
         }
 
-        // Recursive calculation for Fibonacci (slower, recalculates values)
+        // Recursive calculation for Fibonacci
         return fibonacci(n - 1) + fibonacci(n - 2);
     }
 
     /**
-     * Optimized recursive method to calculate the nth Fibonacci number using memoization.
-     * Caches results in fibonacciCache to avoid redundant calculations.
+     * Optimized recursive method to calculate the nth Fibonacci number using
+     * memoization. Caches results in fibonacciCache to avoid redundant
+     * calculations.
+     * 
      * @param n the Fibonacci sequence index
      * @return the nth Fibonacci number
      */
