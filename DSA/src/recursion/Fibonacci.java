@@ -11,7 +11,6 @@ public class Fibonacci {
         // Compute Fibonacci using memoization (faster with caching)
         System.out.println("Fibonacci with cache: " + fibonacciWithCache(n));
     }
-
     /**
      * Recursive method to calculate the nth Fibonacci number without caching.
      * This method is slower because it recalculates Fibonacci values repeatedly.
