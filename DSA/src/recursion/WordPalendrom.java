@@ -1,6 +1,6 @@
 package recursion;
 
-public class Recursion {
+public class WordPalendrom {
 	public static void main(String[] args) {
 		System.out.println(isTheWordPalendrom("WOW"));
 		System.out.println(isTheWordPalendrom("mOm"));
