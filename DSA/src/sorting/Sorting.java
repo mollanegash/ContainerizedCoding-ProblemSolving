@@ -19,8 +19,8 @@ public class Sorting {
 			numbers[i] = random.nextInt(10);
 
 		}
-		int clonedArray[]=Arrays.copyOf(numbers, length);
-		
+		int clonedArray[] = Arrays.copyOf(numbers, length);
+
 		System.out.println("before Sorting");
 		System.out.print("\n" + " " + Arrays.toString(clonedArray) + " ");
 		// Perform Merge Sort
@@ -32,9 +32,9 @@ public class Sorting {
 	}
 
 	static void mergeSort(int[] inputArray) {
-		
+
 		int inputLength = inputArray.length;
-	
+
 		if (inputLength < 2) {
 			return;
 
@@ -42,10 +42,10 @@ public class Sorting {
 
 		int midPoint = inputLength / 2;
 		// Use copyOfRange to handle odd/even sizes correctly
-        int leftArray[] = Arrays.copyOfRange(inputArray, 0, midPoint); // First half
-        int rightArray[] = Arrays.copyOfRange(inputArray, midPoint, inputLength); // Second half
-		//or
-		
+		int leftArray[] = Arrays.copyOfRange(inputArray, 0, midPoint); // First half
+		int rightArray[] = Arrays.copyOfRange(inputArray, midPoint, inputLength); // Second half
+		// or
+
 //		int leftArray[] = new int[midPoint];
 //		int rightArray[] = new int[inputLength - midPoint];
 //		// Populate both arrays:
@@ -62,7 +62,6 @@ public class Sorting {
 		merge(inputArray, leftArray, rightArray);
 
 	}
-
 
 	private static void merge(int[] inputArray, int[] leftArray, int[] rightArray) {
 		// create pointers for both left, right, and the new sorted array!
