@@ -4,7 +4,6 @@ public class Fibonacci {
 
     // Class-level (static) variable for the target Fibonacci index
     private static int n = 50; // Define the target Fibonacci index
-
     // Class-level (static) array to store computed Fibonacci values for memoization
     private static long[] fibonacciCache = new long[n + 1];
 
